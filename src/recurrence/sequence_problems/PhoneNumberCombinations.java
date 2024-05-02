@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class PhoneNumberCombinations {
     public static void main(String[] args) {
         // Used to find alphabets for phone number characters
-        phoneNumber("", "12");
-        var list = phoneNumberArrayList("", "12");
+        // phoneNumber("", "321");
+        var list = phoneNumberArrayList("", "321");
         System.out.println(list);
     }
 
@@ -25,7 +25,6 @@ public class PhoneNumberCombinations {
 
     static ArrayList<String> phoneNumberArrayList(String p, String str) {
         if (str.isEmpty()) {
-            System.out.println(p);
             var list = new ArrayList<String>();
             list.add(p);
             return list;

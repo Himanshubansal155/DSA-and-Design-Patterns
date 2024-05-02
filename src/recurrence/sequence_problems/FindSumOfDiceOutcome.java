@@ -8,7 +8,6 @@ public class FindSumOfDiceOutcome {
         findSum("", 4);
         var res = findSumArrayList("", 4);
         System.out.println(res);
-
     }
 
     static void findSum(String processed, int sum) {
